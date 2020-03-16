@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Plugin-Version: 1.0.0
 Plugin-Id: coxautoscouter-plugin
 Plugin-Provider: schokkya
-Plugin-Dependencies: extutils-plugin
+Plugin-Dependencies: extutilscustom-plugin
 Plugin-Description: Scouts CoX for you
 Plugin-License: GNU General Public License v3.0
 
