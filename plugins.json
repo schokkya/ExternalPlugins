@@ -1,0 +1,34 @@
+[
+  {
+    "projectUrl": "https://github.com/schokkya/ExternalPlugins",
+    "provider": "SchokkYA",
+    "name": "CoX Auto Scouter",
+    "description": "Scouts CoX for you",
+    "id": "autoscouter-plugin",
+    "releases": [
+      {
+        "date": "2020-03-16",
+        "sha512sum": "443095077fafb3120cea0256164b63febb48e9b78ce6bda018598f9969b8f8025b2af3ebe3c521908c4dcfcd9f1139043e53b00365c9d880742131be69b2fea0",
+        "version": "1.0.0",
+        "url": "https://github.com/schokkya/ExternalPlugins/blob/master/release/AutoScouter-1.0.0.jar?raw=true",
+        "requires": "0.0.1"
+      }
+    ]
+  },
+  {
+    "projectUrl": "https://github.com/schokkya/ExternalPlugins",
+    "provider": "Ganom",
+    "name": "ExtUtilsCustom",
+    "description": "Utils required for plugins to function.",
+    "id": "extutilscustom-plugin",
+    "releases": [
+      {
+        "date": "2020-03-16",
+        "sha512sum": "f740ce1c64fd93ee0d5126e5b5f2189125783d7b50fdc998569ea5abcdbc7b5f2a8b5286f7aa87fa614015ecf519630454b6b52035a221cd075237f600b2fd95",
+        "version": "5.10.0c",
+        "url": "https://github.com/schokkya/ExternalPlugins/blob/master/release/ExtUtils-5.10.0c.jar?raw=true",
+        "requires": "0.0.1"
+      }
+    ]
+  }
+]
