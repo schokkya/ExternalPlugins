@@ -1,6 +1,6 @@
 [
   {
-    "projectUrl": "https://github.com/schokkya/ExternalPlugins",
+    "projectUrl": "https://discord.gg/OpenOSRS",
     "provider": "SchokkYA",
     "name": "CoX Auto Scouter",
     "description": "Scouts CoX for you",
@@ -25,8 +25,8 @@
       {
         "date": "2020-03-16",
         "sha512sum": "f513db6d73509bdebd2c0cead624e6f7f453050a59752ba2e501c0bf9dd2e5c01d28f0fde4577cc8d62210bbd1817367e471b787a8092cfe4f40f3c18e6a8c53",
-        "version": "5.10.0c",
-        "url": "https://github.com/schokkya/ExternalPlugins/blob/master/release/ExtUtilsCustom-5.10.0.jar?raw=true",
+        "version": "1.0.0",
+        "url": "https://github.com/schokkya/ExternalPlugins/blob/master/release/ExtUtilsCustom-1.0.0.jar?raw=true",
         "requires": "0.0.1"
       }
     ]

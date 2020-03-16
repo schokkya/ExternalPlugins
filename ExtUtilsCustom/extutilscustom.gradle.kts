@@ -24,7 +24,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-version = "5.10.0"
+version = "1.0.0"
 
 project.extra["PluginName"] = "ExtUtilsCustom"
 project.extra["PluginDescription"] = "Utils required for plugins to function."
