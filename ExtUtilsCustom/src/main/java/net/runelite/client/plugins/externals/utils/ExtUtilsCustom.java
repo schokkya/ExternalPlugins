@@ -50,7 +50,7 @@ import org.pf4j.Extension;
 @Slf4j
 @SuppressWarnings("unused")
 @Singleton
-public class ExtUtils extends Plugin
+public class ExtUtilsCustom extends Plugin
 {
 	@Inject
 	private Client client;

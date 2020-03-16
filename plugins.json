@@ -8,7 +8,7 @@
     "releases": [
       {
         "date": "2020-03-16",
-        "sha512sum": "443095077fafb3120cea0256164b63febb48e9b78ce6bda018598f9969b8f8025b2af3ebe3c521908c4dcfcd9f1139043e53b00365c9d880742131be69b2fea0",
+        "sha512sum": "e486b43bb8a4627f92366a49edbaf990ccd29413bcab96803192ea96c67ebf5325993cf102e0ea63d7a8d31cb85815d505f31f19dc49cb4e0e5eb8fb0bca6856",
         "version": "1.0.0",
         "url": "https://github.com/schokkya/ExternalPlugins/blob/master/release/AutoScouter-1.0.0.jar?raw=true",
         "requires": "0.0.1"
@@ -24,9 +24,9 @@
     "releases": [
       {
         "date": "2020-03-16",
-        "sha512sum": "f740ce1c64fd93ee0d5126e5b5f2189125783d7b50fdc998569ea5abcdbc7b5f2a8b5286f7aa87fa614015ecf519630454b6b52035a221cd075237f600b2fd95",
+        "sha512sum": "f513db6d73509bdebd2c0cead624e6f7f453050a59752ba2e501c0bf9dd2e5c01d28f0fde4577cc8d62210bbd1817367e471b787a8092cfe4f40f3c18e6a8c53",
         "version": "5.10.0c",
-        "url": "https://github.com/schokkya/ExternalPlugins/blob/master/release/ExtUtils-5.10.0c.jar?raw=true",
+        "url": "https://github.com/schokkya/ExternalPlugins/blob/master/release/ExtUtilsCustom-5.10.0.jar?raw=true",
         "requires": "0.0.1"
       }
     ]

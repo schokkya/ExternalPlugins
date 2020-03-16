@@ -23,7 +23,7 @@ import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDependency;
 import net.runelite.client.plugins.PluginDescriptor;
 import net.runelite.client.plugins.PluginType;
-import net.runelite.client.plugins.externals.utils.ExtUtils;
+import net.runelite.client.plugins.externals.utils.ExtUtilsCustom;
 import net.runelite.client.plugins.externals.utils.Tab;
 import net.runelite.client.ui.ClientToolbar;
 import net.runelite.client.ui.NavigationButton;
@@ -40,7 +40,7 @@ import org.pf4j.Extension;
 )
 @Slf4j
 @SuppressWarnings("unused")
-@PluginDependency(ExtUtils.class)
+@PluginDependency(ExtUtilsCustom.class)
 public class AutoScouterPlugin extends Plugin
 {
 	@Inject
@@ -48,7 +48,7 @@ public class AutoScouterPlugin extends Plugin
 	@Inject
 	private ClientToolbar clientToolbar;
 	@Inject
-	private ExtUtils utils;
+	private ExtUtilsCustom utils;
 	private NavigationButton navButton;
 	private Robot robot;
 	private ScheduledExecutorService executor;
@@ -112,10 +112,11 @@ public class AutoScouterPlugin extends Plugin
 			}
 		};
 		executor = Executors.newSingleThreadScheduledExecutor();
-		executor.schedule(delayClicks, ExtUtils.randomDelay(400, 900), TimeUnit.MILLISECONDS);
+		executor.schedule(delayClicks, ExtUtilsCustom.randomDelay(400, 900), TimeUnit.MILLISECONDS);
 	}
 
-	private void reset(){
+	private void reset()
+	{
 		checkWhere = false;
 		doBoard = false;
 		doParty = false;
@@ -152,7 +153,7 @@ public class AutoScouterPlugin extends Plugin
 				}
 			};
 			executor = Executors.newSingleThreadScheduledExecutor();
-			executor.schedule(delayClicks, ExtUtils.randomDelay(500, 1100), TimeUnit.MILLISECONDS);
+			executor.schedule(delayClicks, ExtUtilsCustom.randomDelay(500, 1100), TimeUnit.MILLISECONDS);
 		}
 	}
 
@@ -180,7 +181,7 @@ public class AutoScouterPlugin extends Plugin
 					}
 				};
 				executor = Executors.newSingleThreadScheduledExecutor();
-				executor.schedule(delayClicks, ExtUtils.randomDelay(500, 800), TimeUnit.MILLISECONDS);
+				executor.schedule(delayClicks, ExtUtilsCustom.randomDelay(500, 800), TimeUnit.MILLISECONDS);
 			}
 		}
 	}
@@ -208,7 +209,7 @@ public class AutoScouterPlugin extends Plugin
 			}
 		};
 		executor = Executors.newSingleThreadScheduledExecutor();
-		executor.schedule(delayClicks, ExtUtils.randomDelay(500, 800), TimeUnit.MILLISECONDS);
+		executor.schedule(delayClicks, ExtUtilsCustom.randomDelay(500, 800), TimeUnit.MILLISECONDS);
 	}
 
 	private void startRaid()
@@ -246,7 +247,7 @@ public class AutoScouterPlugin extends Plugin
 			}
 		};
 		executor = Executors.newSingleThreadScheduledExecutor();
-		executor.schedule(delayClicks, ExtUtils.randomDelay(500, 750), TimeUnit.MILLISECONDS);
+		executor.schedule(delayClicks, ExtUtilsCustom.randomDelay(500, 750), TimeUnit.MILLISECONDS);
 	}
 
 	private void leaveRaid()
@@ -269,7 +270,7 @@ public class AutoScouterPlugin extends Plugin
 			}
 		};
 		executor = Executors.newSingleThreadScheduledExecutor();
-		executor.schedule(delayClicks, ExtUtils.randomDelay(500, 750), TimeUnit.MILLISECONDS);
+		executor.schedule(delayClicks, ExtUtilsCustom.randomDelay(500, 750), TimeUnit.MILLISECONDS);
 	}
 
 	private void confirmLeave()
@@ -294,7 +295,7 @@ public class AutoScouterPlugin extends Plugin
 			}
 		};
 		executor = Executors.newSingleThreadScheduledExecutor();
-		executor.schedule(delayClicks, ExtUtils.randomDelay(500, 800), TimeUnit.MILLISECONDS);
+		executor.schedule(delayClicks, ExtUtilsCustom.randomDelay(500, 800), TimeUnit.MILLISECONDS);
 	}
 
 	private void confirmStart()
@@ -319,7 +320,7 @@ public class AutoScouterPlugin extends Plugin
 			}
 		};
 		executor = Executors.newSingleThreadScheduledExecutor();
-		executor.schedule(delayClicks, ExtUtils.randomDelay(500, 800), TimeUnit.MILLISECONDS);
+		executor.schedule(delayClicks, ExtUtilsCustom.randomDelay(500, 800), TimeUnit.MILLISECONDS);
 	}
 
 	@Subscribe

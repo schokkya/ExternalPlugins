@@ -32,7 +32,7 @@ project.extra["PluginDescription"] = "Scouts CoX for you"
 dependencies {
     annotationProcessor(Libraries.lombok)
     annotationProcessor(Libraries.pf4j)
-    compileOnly(project(":ExtUtils"))
+    compileOnly(project(":ExtUtilsCustom"))
     compileOnly("com.github.open-osrs.runelite:runelite-api:-SNAPSHOT")
     compileOnly("com.github.open-osrs.runelite:runelite-client:-SNAPSHOT")
     compileOnly(Libraries.guice)
