@@ -7,8 +7,8 @@
     "id": "autoscouter-plugin",
     "releases": [
       {
-        "date": "2020-03-16",
-        "sha512sum": "36FEA3FC3580795C8249840F3E15C7F33F5D41B68807AE68AA7943A549D675DBA55DDA1703009B328D35E7089E4D44572E2D6E6D84ABF7E74A19E9A420F57E69",
+        "date": "2020-03-18",
+        "sha512sum": "75EAC8C8CA8FF664167A708FDCECAEC770E99C004A50072E628D6872394102D0125533F5029B702B2C219CB3009B489D307083A7441786371D316ADAA4470A40",
         "version": "1.0.0",
         "url": "https://github.com/schokkya/ExternalPlugins/blob/master/release/AutoScouter-1.0.0.jar?raw=true",
         "requires": "0.0.1"

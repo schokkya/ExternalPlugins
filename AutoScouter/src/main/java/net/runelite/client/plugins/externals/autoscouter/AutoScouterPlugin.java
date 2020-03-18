@@ -195,12 +195,16 @@ public class AutoScouterPlugin extends Plugin
 			{
 				if (doCloseInterface)
 				{
+
 					Widget closeButton = client.getWidget(507, 2).getChild(11); //close button on board interface
 					if (closeButton != null)
 					{
-						Rectangle bounds = closeButton.getBounds();
+						client.getCanvas().requestFocus();
+						robot.keyPress(KeyEvent.VK_ESCAPE);
+						robot.keyRelease(KeyEvent.VK_ESCAPE);
+						//Rectangle bounds = closeButton.getBounds();
 						log.info("Closing interface");
-						utils.click(bounds);
+						//utils.click(bounds);
 						doCloseInterface = false;
 						doEnterChambers = true;
 						executor.shutdown();
@@ -284,9 +288,11 @@ public class AutoScouterPlugin extends Plugin
 				{
 					if (doConfirmLeave)
 					{
+						client.getCanvas().requestFocus();
+						type("1");/*
 						Rectangle bounds = confirmLeave.getBounds();
 						log.info("Leaving raid..");
-						utils.click(bounds);
+						utils.click(bounds);*/
 						doConfirmLeave = false;
 						doBoard = true;
 						executor.shutdown();
@@ -309,9 +315,11 @@ public class AutoScouterPlugin extends Plugin
 				{
 					if (doConfirmStart)
 					{
-						Rectangle bounds = confirmStart.getBounds();
+						client.getCanvas().requestFocus();
+						type("1");
+						//Rectangle bounds = confirmStart.getBounds();
 						log.info("Confirming start raid..");
-						utils.click(bounds);
+						//utils.click(bounds);
 						doConfirmStart = false;
 						doLeaveRaid = true;
 						executor.shutdown();
